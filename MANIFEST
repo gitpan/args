@@ -29,6 +29,8 @@ t/010_simple/02_type.t
 t/010_simple/03_optional.t
 t/010_simple/04_default.t
 t/010_simple/05_methods.t
+t/010_simple/06_optional_tc.t
+t/010_simple/07_create_tc.t
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
