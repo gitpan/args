@@ -1,0 +1,30 @@
+---
+abstract: 'argument validation for you'
+author:
+  - 'Tokuhiro Matsuno <tokuhirom  slkjfd gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: args
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Any::Moose: 0.1
+  Filter::Util::Call: 0
+  PadWalker: 1.9
+  Scalar::Util: 1.21
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/tokuhirom/p5-args.git
+version: 0.01_01
